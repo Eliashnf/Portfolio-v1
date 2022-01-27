@@ -1,13 +1,17 @@
 import React from 'react';
-import Accueil from './pages/Accueil';
+import Home from './pages/Home';
+import About from './pages/About';
 import NotFound from './pages/NotFound';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Work from './pages/Work';
 
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" exact element={<Accueil/>} />
+        <Route path="/" exact element={<Home/>} />
+        <Route path="/about" exact element={<About/>} />
+        <Route path="/work" exact element={<Work/>} />s
         <Route path="*" element={<NotFound/>} />
       </Routes>
     </BrowserRouter>
