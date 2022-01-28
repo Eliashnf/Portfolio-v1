@@ -3,7 +3,7 @@ import Navigation from '../components/Navigation';
 
 const Work = () => {
     return (
-        <div>
+        <div className='texte'>
             <Navigation />
             <h1>Work is here</h1>
         </div>

@@ -4,6 +4,7 @@ import About from './pages/About';
 import NotFound from './pages/NotFound';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Work from './pages/Work';
+import './styles/general.css';
 
 const App = () => {
   return (
@@ -11,7 +12,7 @@ const App = () => {
       <Routes>
         <Route path="/" exact element={<Home/>} />
         <Route path="/about" exact element={<About/>} />
-        <Route path="/work" exact element={<Work/>} />s
+        <Route path="/work" exact element={<Work/>} />
         <Route path="*" element={<NotFound/>} />
       </Routes>
     </BrowserRouter>

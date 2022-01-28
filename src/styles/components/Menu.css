@@ -1,0 +1,62 @@
+.menu
+{
+    background-color: var(--noirMenu);
+    width: 15em;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+}
+
+.hautMenu
+{
+    height: 9%;
+    display: flex;
+}
+
+.nomSite
+{
+    text-align: center;
+    height: 1%;
+    width: 100%;
+    color: white;
+}
+
+
+
+
+.linkMenu
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.boutonMenu
+{
+    height: 2.5em;
+    background-color: var(--noirMenu);
+    border:none;
+    width: 100%;
+    font-family: Helvetica;
+    box-sizing: border-box;
+    border-left: 1px solid;
+    border-color: var(--noirMenu);
+}
+
+.boutonMenu:hover
+{
+    color: white;
+    cursor: pointer;
+    border-color: var(--texteLeger);
+}
+
+.categorieMenu
+{
+    padding-left: 3em;
+    color: var(--texteLeger);
+    text-align: left;
+    font-size: 1.1em;
+}
+
+
+

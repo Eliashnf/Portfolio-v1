@@ -3,7 +3,7 @@ import Navigation from '../components/Navigation';
 
 const About = () => {
     return (
-        <div>
+        <div className='texte'>
             <Navigation />
             <h1>About me</h1>
             <br/>

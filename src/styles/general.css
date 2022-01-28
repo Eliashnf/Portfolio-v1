@@ -1,0 +1,19 @@
+:root
+{
+  --noirMenu: #10121B;
+  --texteLeger: #979797;
+}
+
+.texte{
+    text-align: center;
+}
+
+h1{
+    color: white;
+}
+p{
+    color: white;
+}
+.linear-gradient{
+    background: linear-gradient(70deg,#000312, #070D2B);
+}
