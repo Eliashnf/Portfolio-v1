@@ -1,0 +1,291 @@
+.bar{
+    background-color: var(--noirMenu);
+    width: 12em;
+    height: 100vh;
+    position: fixed;
+    z-index: 1000;
+    
+}
+.navList{
+    height: auto;
+    padding: 0;
+    width: 100%;
+}
+
+.navList .row{
+    width: 100%;
+    height: 35px;
+    border-bottom: 0.01em solid white;
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navList .topper{
+    border-top: 0.01em solid white;
+}
+
+.navList #active{
+    background-color: #151B4C;
+}
+
+.navList .row:hover{
+    cursor: pointer;
+    background-color: #252C64;
+    color: #979797;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.row #title{
+    color: white;
+}
+
+.mid{
+    position: relative;
+    margin-top: 155%;
+}
+
+
+.text-nav{
+    font-family: 'Red Hat Display';
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.logo{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.logo:hover{
+    transform: scale(0.94);
+    z-index: 2;
+}
+
+@media screen and (max-width: 1300px){
+    .bar{
+        background-color: var(--noirMenu);
+        width: 100%;
+        height: 10%;
+        z-index: 1000;
+        
+    }
+    .navList{
+        padding: 0;
+    }
+
+    
+    
+    .navList .row{
+        width: 10%;
+        height: 10%;
+        list-style-type: none;
+        margin: 0;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-left: 7%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 15px;
+        margin-top: 15px;
+        border: 1px solid var(--noirMenu);
+        border-left: 1px solid #979797;
+        border-right: 1px solid #979797;
+    }
+    
+    .mid{
+        position: relative;
+        float: top;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        
+    }
+    
+    .navList #active{
+        background-color: #151B4C;
+    }
+    
+    .navList .row:hover{
+        cursor: pointer;
+        background-color: #252C64;
+        color: #979797;
+        transition: all 0.2s ease-in-out;
+    }
+    
+    
+    .row #title{
+        color: white;
+    }
+    
+    
+    .text-nav{
+        font-family: 'Red Hat Display';
+        font-size: 15px;
+        font-weight: 600;
+    }
+    
+    .logo{
+        display: flex;
+        position: relative;
+        float: left;
+        align-items: left;
+        justify-content: left;
+        left: -5%;
+        margin-top: -3.5%;
+        transition: 1s;
+        transform: scale(0.50);
+    }
+    
+    .logo:hover{
+        transform: scale(0.45);
+        z-index: 2;
+    }
+}
+
+@media screen and (max-width: 1030px){
+    .navList .row{
+        width: 15%;
+        height: 10%;
+        list-style-type: none;
+        margin: 0;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-left: 7%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 15px;
+        margin-top: 15px;
+        border: 1px solid var(--noirMenu);
+        border-left: 1px solid #979797;
+        border-right: 1px solid #979797;
+    }
+    
+    .mid{
+        position: relative;
+        float: top;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        
+    }
+    .text-nav{
+        font-family: 'Red Hat Display';
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .logo{
+        display: flex;
+        position: relative;
+        float: left;
+        align-items: left;
+        justify-content: left;
+        left: -8%;
+        margin-top: -4.5%;
+        transition: 1s;
+        transform: scale(0.35);
+    }
+    .logo:hover{
+        transform: scale(0.30);
+        z-index: 2;
+    }
+}
+@media screen and (max-width: 736px){
+    .navList .row{
+        width: 40px;
+        height: 20px;
+        list-style-type: none;
+        display: inline-block;
+        position: relative;
+        
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+        margin-top: 15px;
+        border-left: 1px solid #979797;
+        border-right: 1px solid #979797;
+    }
+    
+    .mid{
+        position: relative;
+        float: top;
+        left: -80px;
+        margin: 0;
+        
+    }
+
+    .text-nav{
+        font-family: 'Red Hat Display';
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .logo{
+        display: flex;
+        position: relative;
+        float: left;
+        align-items: left;
+        justify-content: left;
+        left: -12%;
+        margin-top: -7.5%;
+        transition: 1s;
+        transform: scale(0.30);
+    }
+    .logo:hover{
+        transform: scale(0.25);
+        z-index: 2;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .navList .row{
+        width: 20%;
+        height: 10%;
+        list-style-type: none;
+        margin: 0;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+        margin-top: 15px;
+        border: 1px solid var(--noirMenu);
+        border-left: 1px solid #979797;
+        border-right: 1px solid #979797;
+    }
+    
+    .mid{
+        position: relative;
+        float: right;
+        left: -80px;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        
+    }
+    .logo{
+        display: flex;
+        position: relative;
+        float: left;
+        align-items: left;
+        justify-content: left;
+        left: -17%;
+        margin-top: -10.5%;
+        transition: 1s;
+        transform: scale(0.30);
+    }
+    .logo:hover{
+        transform: scale(0.25);
+        z-index: 2;
+    }
+}

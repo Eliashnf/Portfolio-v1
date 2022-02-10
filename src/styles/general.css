@@ -1,7 +1,7 @@
 :root
 {
   --noirMenu: #10121B;
-  --texteLeger: #979797;
+  --texteLeger: white;
 }
 
 .texte{
@@ -10,10 +10,21 @@
 
 h1{
     color: white;
+    margin: 0;
 }
 p{
     color: white;
 }
-.linear-gradient{
+.lineor-gradient{
     background: linear-gradient(70deg,#000312, #070D2B);
+}
+
+.page{
+    overflow: hidden;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }

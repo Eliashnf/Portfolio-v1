@@ -1,0 +1,27 @@
+.marg1{
+    margin-top: 48px;
+}
+
+.marg2{
+    margin-top: 20px;
+}
+
+.thin{
+    font-weight: lighter;
+    margin: 5px;
+}
+
+.thinner{
+    font-weight: lighter;
+    margin-top: 4px;
+}
+
+.oblique{
+    font-style: oblique;
+    font-size: 21px;
+}
+
+.thicc{
+    font-weight: bolder;
+    font-size: 50px;
+}

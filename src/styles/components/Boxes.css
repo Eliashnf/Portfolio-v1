@@ -1,0 +1,208 @@
+.boxWork{
+    width: 270px;
+    height: 591px;
+    float: right;
+    padding: 30px;
+    margin: 70px;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    overflow-x: hidden;
+    position: relative;
+    right: 12%;
+    border-radius: 5%;
+    background: #191D2B;
+    box-shadow: 0px 4px 4px #151B4C;
+    border-radius: 25px;
+    font-family: 'Red Hat Display';
+    overflow-y: hidden;
+}
+
+.boxAbout{
+    width: 700px;
+    height: 600px;
+    float: right;
+    position: relative;
+    right: 3%;
+    margin:  43px;
+    margin-top: 10%;
+    margin-bottom: 8%;
+    border-radius: 25px;
+}
+
+.boxHome{
+    width: 1000px;
+    height: 600px;
+    float: right;
+    position: relative;
+    right: 8%;
+    margin-top: 14%;
+    margin-bottom: 4%;
+}
+
+
+.boxText1{
+    position: relative;
+    float: left;
+    text-align: left;
+    color: white;
+    font-family: 'Red Hat Display';
+    font-size: 30px;
+}
+
+.boxText2{
+    position: relative;
+    float: left;
+    text-align: left;
+    color: white;
+    font-family: 'Red Hat Display';
+    font-size: 23px;
+    margin: 8px;
+    padding: 5px;
+}
+
+
+.boxButton{ 
+    width: 197px;
+    height: 69px;
+    background: #10121B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 80px;
+    color: white;
+}
+
+.boxImg{
+    width: 91%; 
+    border: 4px solid white;
+    border-radius: 30px;
+}
+
+
+@media screen and (max-width: 1600px){
+    .boxWork{
+        width: 270px;
+        height: 591px;
+        float: right;
+        padding: 30px;
+        margin: 50px;
+        margin-top: 8%;
+        margin-bottom: 8%;
+        overflow-x: hidden;
+        position: relative;
+        right: 12%;
+        border-radius: 5%;
+        background: #191D2B;
+        box-shadow: 0px 4px 4px #151B4C;
+        border-radius: 25px;
+        font-family: 'Red Hat Display';
+        overflow-y: hidden;
+    }
+    
+    .boxAbout{
+        width: 700px;
+        height: 600px;
+        float: right;
+        position: relative;
+        right: 3%;
+        margin:  43px;
+        margin-top: 10%;
+        margin-bottom: 8%;
+        border-radius: 25px;
+    }
+    
+    .boxHome{
+        width: 1000px;
+        height: 600px;
+        float: right;
+        position: relative;
+        right: 8%;
+        margin-top: 14%;
+        margin-bottom: 4%;
+    }
+        
+}
+
+@media screen and (max-width: 1475px){
+    .boxWork{
+        width: 270px;
+        height: 591px;
+        float: right;
+        padding: 30px;
+        margin: 25px;
+        margin-top: 8%;
+        margin-bottom: 8%;
+        overflow-x: hidden;
+        position: relative;
+        right: 10%;
+        border-radius: 5%;
+        background: #191D2B;
+        box-shadow: 0px 4px 4px #151B4C;
+        border-radius: 25px;
+        font-family: 'Red Hat Display';
+        overflow-y: hidden;
+    }
+    
+    .boxAbout{
+        width: 700px;
+        height: 600px;
+        float: right;
+        position: relative;
+        right: 3%;
+        margin:  43px;
+        margin-top: 10%;
+        margin-bottom: 8%;
+        border-radius: 25px;
+    }
+    
+    .boxHome{
+        width: 1000px;
+        height: 600px;
+        float: right;
+        position: relative;
+        right: -5%;
+        margin-top: 14%;
+        margin-bottom: 4%;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .boxWork{
+        width: 370px;
+        height: 691px;
+        float: right;
+        padding: 30px;
+        margin: 150px;
+        margin-top: 12%;
+        margin-bottom: 8%;
+        overflow-x: hidden;
+        position: relative;
+        right: 10%;
+        border-radius: 5%;
+        background: #191D2B;
+        box-shadow: 0px 4px 4px #151B4C;
+        border-radius: 25px;
+        font-family: 'Red Hat Display';
+        overflow-y: hidden;
+    }
+    
+    .boxAbout{
+        width: 700px;
+        height: 600px;
+        float: right;
+        position: relative;
+        right: 3%;
+        margin:  43px;
+        margin-top: 10%;
+        margin-bottom: 8%;
+        border-radius: 25px;
+    }
+    
+    .boxHome{
+        width: 1000px;
+        height: 600px;
+        float: right;
+        position: relative;
+        right: -5%;
+        margin-top: 14%;
+        margin-bottom: 4%;
+    }
+}
